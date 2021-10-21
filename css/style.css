@@ -18721,6 +18721,10 @@ body {
     height: 174px;
   }
 
+  .subinfo .uk-container .card .img-card .img-bird {
+    width: 192px;
+  }
+
   .subinfo .uk-container .card .img-card .img-card-text {
     font-size: 15px;
   }
@@ -18836,7 +18840,7 @@ body {
   .aboutcompany .uk-container .aboutcompany-title {
     font-size: 37px;
     text-align: center;
-    max-width: 50%;
+    max-width: 60%;
     margin: 0 auto;
     padding: 20px 0 30px 0;
   }
@@ -18858,7 +18862,7 @@ body {
 
   .howworkdelivery .uk-container .howworkdelivery-title {
     font-size: 37px;
-    max-width: 77%;
+    max-width: 85%;
     margin: 70px auto 50px auto;
   }
 
@@ -18866,6 +18870,14 @@ body {
     width: 302px;
     height: 250px;
     margin: 0 auto;
+  }
+
+  .howworkdelivery .uk-container .cards-block .card .bottom-block .text-block .large-text {
+    font-size: 13px;
+  }
+
+  .howworkdelivery .uk-container .cards-block .card .bottom-block .text-block .small-text {
+    font-size: 10px;
   }
 
   .howworkdelivery .uk-container .border-block .text-block .title {
@@ -18879,6 +18891,11 @@ body {
   .questions .q-title {
     font-size: 37px;
     top: 70px;
+    padding: 40px 0 30px;
+  }
+
+  .questions .uk-container {
+    padding: 0 15px;
   }
 
   .otherdevices .uk-container .otherdevices-title {
@@ -19014,6 +19031,7 @@ body {
     -webkit-box-direction: normal;
         -ms-flex-direction: column;
             flex-direction: column;
+    row-gap: 40px;
   }
 
   .subinfo .uk-container .card {
@@ -19035,14 +19053,41 @@ body {
     text-align: center;
   }
 
+  .subinfo .uk-container .card .sub-text-card {
+    left: 0;
+    max-width: 80%;
+    padding: 30px 0;
+    height: 80px;
+    margin: 0 auto;
+  }
+
   .subinfo .uk-container .card .img-card {
     position: relative;
-    left: -10%;
+    top: 20px;
+    margin: 0 auto;
+  }
+
+  .subinfo .uk-container .card .img-card .img-card-text {
+    top: 2rem;
+    left: -10px;
   }
 
   .subinfo .uk-container .card .small-yellow-card {
     width: 100%;
     text-align: center;
+  }
+
+  .subinfo .uk-container .card .small-yellow-card img {
+    display: none;
+  }
+
+  .subinfo .uk-container .tog-block {
+    top: -170px;
+    z-index: 30;
+    left: 70%;
+    -webkit-transform: scale(-1, 1);
+        -ms-transform: scale(-1, 1);
+            transform: scale(-1, 1);
   }
 
   .howsubwork .uk-container .howsubwork-title .ye-bg {
@@ -19054,6 +19099,10 @@ body {
   .howsubwork .uk-container .uk-card-default {
     width: 400px;
     height: 124px;
+  }
+
+  .howsubwork .uk-container .card-last {
+    left: 0;
   }
 
   .howsubwork .uk-container .card-block-left {
@@ -19137,7 +19186,7 @@ body {
   .howsubwork .uk-container .border-block .btn-block {
     width: 100%;
     position: relative;
-    top: -50px;
+    top: -70px;
   }
 
   .howsubwork .uk-container .border-block .btn-block a {
@@ -19322,6 +19371,8 @@ body {
     -webkit-box-direction: reverse;
         -ms-flex-direction: column-reverse;
             flex-direction: column-reverse;
+    left: -10px;
+    position: relative;
   }
 
   .choosemodel .cards-block .s-card .card-top .text-block .price-block .left-block {
@@ -19378,11 +19429,12 @@ body {
         -ms-flex-direction: column;
             flex-direction: column;
     border-radius: 20px;
-    height: 305px;
+    height: 335px;
   }
 
   .choosemodel .border-block .text-block {
     top: -50px;
+    left: 0;
   }
 
   .choosemodel .border-block a {
@@ -19511,7 +19563,7 @@ body {
   }
 
   .howworkdelivery .uk-container .border-block {
-    top: -30px;
+    top: 40px;
     border-radius: 20px;
     width: 415px;
     height: 368px;
@@ -19525,7 +19577,7 @@ body {
   .howworkdelivery .uk-container .border-block .img-block {
     width: 70%;
     position: relative;
-    left: 30px;
+    left: -5px;
   }
 
   .howworkdelivery .uk-container .border-block .text-block {
@@ -19562,6 +19614,14 @@ body {
 
   .howworkdelivery .uk-container .border-block .btn-block a {
     font-size: 11px;
+  }
+
+  .questions {
+    min-height: 580px;
+  }
+
+  .questions .top-bg {
+    display: none;
   }
 
   .otherdevices {
@@ -19892,6 +19952,14 @@ body {
   .header-block .content .title .title-bottom {
     font-size: 24px;
     line-height: 1.4;
+  }
+
+  .subinfo .uk-container .card .sub-text-card {
+    font-size: 13px;
+  }
+
+  .subinfo .uk-container .card .img-card .img-bird {
+    width: 124px;
   }
 
   .subinfo .uk-container .card .small-yellow-card .large-text-subinfo {
